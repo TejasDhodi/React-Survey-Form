@@ -61,6 +61,8 @@ button {
   color: #fff;
 }
 
+
+
 @media screen and (max-width:321px) {
 
   #survey {
@@ -69,5 +71,9 @@ button {
 
   .options {
     margin: 0.5rem;
+  }
+
+  h2, p {
+    text-align: center;
   }
 }
