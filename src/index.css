@@ -44,7 +44,7 @@ button {
 }
 
 .options input {
-  opacity: 0;
+  display: none;
 }
 
 .options label {
@@ -59,4 +59,15 @@ button {
 .options input:checked ~ label {
   background-color: #000;
   color: #fff;
+}
+
+@media screen and (max-width:321px) {
+
+  #survey {
+    padding: 20px;
+  }
+
+  .options {
+    margin: 0.5rem;
+  }
 }
